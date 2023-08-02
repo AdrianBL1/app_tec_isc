@@ -7,6 +7,7 @@ class MapWithMarker extends StatefulWidget {
   const MapWithMarker({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _MapWithMarkerState createState() => _MapWithMarkerState();
 }
 

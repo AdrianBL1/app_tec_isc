@@ -13,33 +13,6 @@ class Identidad extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16.0),
         children: [
-          /*
-          _buildPerfilCard(
-            title: 'Perfil de Ingreso',
-            content: [
-              'Habilidad en el razonamiento lógico matemático de problemas que impliquen el diseño, planteamiento y solución de problemas reales cotidianos.',
-              'Gusto por las nuevas tendencias en computación y tecnología de información.',
-              'Disposición permanente al autoaprendizaje.',
-              'Habilidad de comunicación oral y escrita.',
-              'Habilidad y responsabilidad para trabajar en equipo.',
-              'Creatividad.',
-            ],
-          ),
-          _buildPerfilCard(
-            title: 'Perfil de Egreso',
-            content: [
-              'Implementa aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos.',
-              'Diseña, desarrolla y aplica modelos computacionales para solucionar problemas, mediante la selección y uso de herramientas matemáticas.',
-              'Diseña e implementa interfaces para la automatización de sistemas de hardware y desarrollo del software asociado.',
-              'Coordina y participa en equipos multidisciplinarios para la aplicación de soluciones innovadoras en diferentes contextos.',
-              'Diseña, implementa y administra bases de datos optimizando los recursos disponibles, conforme a las normas vigentes de manejo y seguridad de la información.',
-              'Desarrolla y administra software para apoyar la productividad y competitividad de las organizaciones cumpliendo con estándares de calidad.',
-              'Evalúa tecnologías de hardware para soportar aplicaciones de manera efectiva.',
-              'Detecta áreas de oportunidad empleando una visión empresarial para crear proyectos aplicando las Tecnologías de la Información y Comunicación.',
-              'Diseña, configura y administra redes de computadoras para crear soluciones de conectividad en la organización, aplicando las normas y estándares vigentes.',
-            ],
-          ),
-          */
           _buildIdentidadCard(),
           _buildEspecialidadCard(),
         ],
